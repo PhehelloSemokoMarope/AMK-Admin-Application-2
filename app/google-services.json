@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "806096864376",
+    "firebase_url": "https://amk-clothing-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "amk-clothing",
+    "storage_bucket": "amk-clothing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806096864376:android:28e232a77957bfd4d8198d",
+        "android_client_info": {
+          "package_name": "com.example.amkadminapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClfaAMdJbmVoY1Ix0YA0xFWNB12YOFfbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806096864376:android:35f589ac82025075d8198d",
+        "android_client_info": {
+          "package_name": "com.fdms.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClfaAMdJbmVoY1Ix0YA0xFWNB12YOFfbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

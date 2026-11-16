@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF9F2"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#D96C06"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingVertical="8dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Process Payment"
+            android:textColor="#1C2841"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/inputPaymentCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Customer Name"
+            android:inputType="textPersonName|textCapWords"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="14dp" />
+
+        <EditText
+            android:id="@+id/inputPaymentOrderRef"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Order Reference"
+            android:inputType="text"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="14dp" />
+
+        <EditText
+            android:id="@+id/inputPaymentAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Amount (R) *"
+            android:inputType="numberDecimal"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerPayMethod"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSubmitPayment"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Process Payment"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D96C06" />
+
+    </LinearLayout>
+
+</ScrollView>
